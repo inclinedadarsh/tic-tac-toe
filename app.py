@@ -1,5 +1,3 @@
-
-
 player_1_sign = None
 player_2_sign = None
 turn = "Player 1"
@@ -102,7 +100,6 @@ def check_tie():
         is_game_over = True
         display_tie()
     
-
 
 def check_win():
     global is_game_over
